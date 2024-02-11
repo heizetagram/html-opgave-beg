@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 1;
+}
+
+header {
+  padding: 1rem;
+}
+
+.navbar {
+  width: 98%;
+  padding: 0.4%;
+  background-color: white;
+  overflow: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #222222;
+  text-align: center;
+  float: right;
+  border-radius: 2px;
+}
+
+.navbar b {
+  float: left;
+}
+
+.header a {
+  text-decoration: none;
+  float: left;
+  border-radius: 2px;}
+
+.navbar a:hover {
+  background-color: #076799;
+  color: white;
+}
+
+.navbar a:active {
+  background-color: #A8CF45;
+  color: white;
+}
+
+/*Det virkede ikke med 'navbar a:active'*/
+.active {
+  background-color: #A8CF45;
+  color: white !important;
+}
+
+.background_IMG {
+  background-image: url("/img/interior.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 4px 4px #00000040,inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+
+.row {
+  width: 100%;
+  padding: 8% 30% 20% 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row a {
+  padding: 2.5%;
+  width: 30%;
+}
+
+#frontForm {
+  background-color: #F2F3F5;
+}
+
+#formHeader {
+  color: #1F1F1F;
+  padding-bottom: 10px;
+}
+
+.first_column_form {
+  padding: 2.5% 3% 2.5%;
+  width: 40%;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+}
+
+.second_column_form {
+  padding: 2.5% 3% 2.5%;
+  width: 40%;
+  border-radius: 2px;
+  border: 1px solid #ebebeb;
+}
+
+#select_time, #select_price {
+  width: 46.4%;
+  color: dimgray;
+  text-align: left;
+}
+
+form {
+  padding-bottom: 10px;
+}
+
+.button {
+  background-color: #a8cf45;
+  border: 5px solid #a8cf45;
+  color: white;
+  border-radius: 2px;
+  padding: 2%;
+  width: 100%;
+}
+
+.button:hover {
+  transition: 0.27s linear;
+  background-color: #005797;
+  border: 5px solid #005797;
+  color: white;
+}
+
+::placeholder {
+  color: dimgray;
+}
+
+h1 {
+  font-size: 42px;
+  color: white;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  line-height: 150%;
+}
+
+
+
